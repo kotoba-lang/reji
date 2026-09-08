@@ -8,7 +8,7 @@
    for the rest here). Adding a currency with a different subdivision (e.g.
    1000 for a 3-decimal currency such as KWD/BHD/OMR) needs no code change —
    only a new table entry."
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (defn- denom
   "One denomination: `value` is an integer count of minor units, `kind` is
