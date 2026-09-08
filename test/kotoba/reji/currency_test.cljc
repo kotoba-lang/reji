@@ -1,5 +1,5 @@
 (ns kotoba.reji.currency-test
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [kotoba.reji.currency :as currency]
             #?(:clj [clojure.test :refer [deftest is testing]]
                :cljs [cljs.test :refer-macros [deftest is testing]])))
