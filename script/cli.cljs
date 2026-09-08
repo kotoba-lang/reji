@@ -5,7 +5,7 @@
 ;;   npx nbb script/cli.cljs change INR 1234.50
 ;;
 (ns cli
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [kotoba.reji.currency :as currency]
             [kotoba.reji.core :as core]))
 
