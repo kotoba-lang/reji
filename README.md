@@ -60,9 +60,9 @@ arithmetic, never `Double`/`Number`.
 ## CLI
 
 ```bash
-npx nbb -cp src script/cli.cljs currencies
-npx nbb -cp src script/cli.cljs tally JPY 500x3 100x12 10x4
-npx nbb -cp src script/cli.cljs change INR 1234.50
+npx nbb -cp src script/cli.cljk currencies
+npx nbb -cp src script/cli.cljk tally JPY 500x3 100x12 10x4
+npx nbb -cp src script/cli.cljk change INR 1234.50
 ```
 
 ## Currencies
@@ -78,7 +78,7 @@ npx nbb -cp src script/cli.cljs change INR 1234.50
 | AED | UAE Dirham | fils | `100` |
 
 Denomination tables are hand-curated against currently-circulating coins and
-notes (`src/kotoba/reji/currency.cljc`) — not a live/authoritative source for
+notes (`src/kotoba/reji/currency.cljk`) — not a live/authoritative source for
 legal tender, and central banks retire/introduce denominations over time.
 Adding a currency, including a 3-decimal one (e.g. KWD/BHD/OMR, where
 `:reji.currency/subdivision` would be `1000`), is a new table entry — no

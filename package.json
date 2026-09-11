@@ -5,6 +5,6 @@
     "nbb": "1.4.208"
   },
   "scripts": {
-    "reji": "nbb -cp src script/cli.cljs"
+    "reji": "nbb -cp src script/cli.cljk"
   }
 }
