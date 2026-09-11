@@ -1,8 +1,8 @@
 ;; script/cli.cljk — nbb command-line front-end for kotoba.reji.
 ;;
-;;   npx nbb script/cli.cljk currencies
-;;   npx nbb script/cli.cljk tally JPY 500x3 100x12 10x4
-;;   npx nbb script/cli.cljk change INR 1234.50
+;;   kbb --backend sci script/cli.cljk currencies
+;;   kbb --backend sci script/cli.cljk tally JPY 500x3 100x12 10x4
+;;   kbb --backend sci script/cli.cljk change INR 1234.50
 ;;
 (ns cli
   (:require [kotoba.lang.text :as str]
