@@ -20,6 +20,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - run: npx nbb -cp src script/cli.cljs currencies
-      - run: npx nbb -cp src script/cli.cljs tally JPY 500x3 100x12 10x4
-      - run: npx nbb -cp src script/cli.cljs change INR 1234.50
+      - run: npx nbb -cp src script/cli.cljk currencies
+      - run: npx nbb -cp src script/cli.cljk tally JPY 500x3 100x12 10x4
+      - run: npx nbb -cp src script/cli.cljk change INR 1234.50
