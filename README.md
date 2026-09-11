@@ -60,9 +60,9 @@ arithmetic, never `Double`/`Number`.
 ## CLI
 
 ```bash
-npx nbb -cp src script/cli.cljk currencies
-npx nbb -cp src script/cli.cljk tally JPY 500x3 100x12 10x4
-npx nbb -cp src script/cli.cljk change INR 1234.50
+kbb --backend sci -cp src script/cli.cljk currencies
+kbb --backend sci -cp src script/cli.cljk tally JPY 500x3 100x12 10x4
+kbb --backend sci -cp src script/cli.cljk change INR 1234.50
 ```
 
 ## Currencies
@@ -87,6 +87,6 @@ other code changes.
 ## Testing
 
 ```bash
-clojure -M:test        # JVM, cognitect test-runner
-clojure -M:lint         # clj-kondo
+kbb -M:test        # JVM, cognitect test-runner
+kbb -M:lint         # clj-kondo
 ```
