@@ -1,7 +1,7 @@
 (ns kotoba.reji.currency-test
   (:require [kotoba.lang.text :as str]
             [kotoba.reji.currency :as currency]
-            #?(:clj [clojure.test :refer [deftest is testing]]
+            #?(:clj [kotoba.test :refer [deftest is testing]]
                :cljs [cljs.test :refer-macros [deftest is testing]])))
 
 (deftest codes-test
